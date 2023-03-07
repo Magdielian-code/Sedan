@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #e0b3c3;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.flex-container {
+    display: block;
+    margin: 50px 200px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width: fit-content;
+    width: 80px;
+    
+}
+
+.div-1 {
+    background-color: white;
+    display: block;
+    padding: 70px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.h2-div1 {
+    color: #119e87;
+    margin-bottom: 40px;
+}
+
+.h3-div1 {
+    color: #03fc0b;
+    margin-bottom: 10px;
+}
+
+.p-div1 {
+    margin-bottom: 5px;
+}
+
+#second-p-div1 {
+    margin-bottom: 0;
+}
+
+.second-container-div{
+    display: flex;
+    width: 100%;
+
+}
+
+.div-2 {
+    background-color: #119e87;
+    color: white;
+    padding: 40px 70px;
+    width: 50%;
+}
+
+.h3-div2 {
+    margin-bottom: 20px;
+}
+
+.inner-div {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.p-inner-div {
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.btn{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    text-shadow: 0 0 1px black;
+    background-image: linear-gradient(#03fc0b, #119e87);
+    background-color: #e0b3c3; /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    text-align: center; */
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    background-color:; 
+}
+
+.div-3 {
+    background-color: #14c4a7;
+    color: white;
+    padding: 40px 70px;
+    width: 50%;
+}
+
+.h3-div3 {
+    margin-bottom: 20px;
+}
+
+.p-div3 {
+    margin-bottom: 5px;
+} 
